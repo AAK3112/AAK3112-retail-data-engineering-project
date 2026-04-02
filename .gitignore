@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments (VERY IMPORTANT)
+.venv/
+venv/
+.env/
+.env311/
+.env*/
+venv*/
+.venv*/
+env/
+env*/
+
+# Spark / Databricks
+spark-warehouse/
+metastore_db/
+
+# Data files
+data/
+*.parquet
+*.csv
+*.json
+*.delta
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# OS / IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log/
