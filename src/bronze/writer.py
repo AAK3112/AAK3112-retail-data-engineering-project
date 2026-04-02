@@ -1,7 +1,7 @@
 
-from file_tracker import update_file_tracker
-from quality import apply_basic_quality_checks
-from log_metrics import log_metrics
+from bronze.file_tracker import update_file_tracker
+from bronze.quality import apply_basic_quality_checks
+from bronze.log_metrics import log_metrics
 
 def write_bronze_batch(df, config, logger, batch_id):
   
